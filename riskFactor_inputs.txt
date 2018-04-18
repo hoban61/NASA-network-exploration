@@ -1,0 +1,6 @@
+Brocon file name, Synthetic_brocon_CLEAN_newIPs.csv
+ICAM Asset assignment filename, Synthetic_ICAM_Privileged_Role_Report_CLEAN_jdoes.csv
+IP Asset list filename, Synthetic_IP_Asset_List_CLEAN.csv
+list of designated countries in 2-letter codes, designated_countries.csv
+attribute weights file, attribute_weights.csv
+output file, riskFactor.py

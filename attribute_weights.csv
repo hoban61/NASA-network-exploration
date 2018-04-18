@@ -1,0 +1,10 @@
+1,connections-total number of connections a given user makes:: brocon
+1,resp_count-total number of unique IPs a given user interacts with:: brocon
+1,frac_remote = remote/connections: fraction of remote connections:: brocon
+1,frac_int = int_conn/connections: fraction of international connections   
+1,designated (if 0-omit; if greater than zero- multiply): # of designated countries connected with:: brocon
+1,traffic=total_orig_bytes+total_resp_bytes+ ip_orig_bytes+ip_resp_bytes:: brocon
+1,protocol -- weighted -- frac_low*low_weight + frac_med*med_weight + frac_high*high_weight:: brocon -- [will use results from NSL-KDD: udp:0.0476; icmp:0.111; tcp:0.8414]
+1,service  -- simliar to above -- can't use NSL-KDD- will simply use inverse weights from brocon
+1,asset_weight=sum over all assets(asset_value*priv):: icam
+0.001, if user has access to no assets other than email & the web
